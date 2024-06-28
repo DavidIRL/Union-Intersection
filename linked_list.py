@@ -21,7 +21,7 @@ class LinkedList:
         output = []
 
         while current:
-            output.append(current.value)
+            output.append(str(current.value))
             current = current.next
         return "->".join(output)
 
