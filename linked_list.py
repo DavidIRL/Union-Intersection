@@ -1,5 +1,6 @@
 class Node:
     def __init__(self, value):
+        # Creating double-linked list for easy appending
         self.value = value
         self.prev = None
         self.next = None
@@ -43,15 +44,4 @@ class LinkedList:
 
     def size(self):
         return self.num_elements
-
-
-
-        
-
-
-
-
-
-
-
 
